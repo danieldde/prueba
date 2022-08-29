@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern{
+    position: relative;
+    padding: 10px 8px;
+    background-color: rgb(181, 151, 77);
+    color: rgb(228, 228, 207);
+    border: none;
+    border-top: 2px solid rgb(194, 187, 168);
+    border-left:2px solid rgb(194, 187, 168) ;
+    border-radius: 6%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-modern:hover{
+    left: -5px;
+    border-top: none;
+    border-left:none;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    border-bottom: 2px solid rgb(194, 187, 168);
+    border-right:2px solid rgb(194, 187, 168) ;
+    background-color: rgb(161, 130, 51);
+    transition: 0.4s;
+    color: rgb(255, 255, 246);;
+}
