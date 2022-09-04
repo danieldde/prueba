@@ -1,0 +1,43 @@
+*{
+    list-style: none;
+}
+
+.container-flex{
+    display: flex;
+    background-color: rgb(220, 109, 158);
+    height: 100vh;
+}
+
+
+
+.main{
+    background-color: rgb(251, 139, 99);
+    flex-grow: 12;
+}
+
+.aside{
+    background-color: rgb(169, 80, 172);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.articulo{
+    height: 5rem;
+    width: 10rem;
+    background-color: rgb(249, 250, 255);
+    margin: .25rem;
+    border-radius: 5%;
+}
+
+
+@media (max-width: 640px) {
+    .container-flex{
+        flex-direction: column-reverse;
+    }
+    .aside{
+        flex-direction: row;
+    }
+
+}
